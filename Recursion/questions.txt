@@ -1,0 +1,15 @@
+Q1. Write a program to print all the numbers between 1 to n using recursion.
+Q2. Write a program to print all the numbers between n to 1 using recursion.
+Q3. Solve page 1 and page 2 of this website :-https://www.geeksforgeeks.org/quizzes/top-mcqs-on-recursion-algorithm-with-answers/
+
+Q4. Find Factorial of a number using recursion.
+Q5. https://leetcode.com/problems/power-of-two
+Q6. https://leetcode.com/problems/power-of-three
+Q7. https://leetcode.com/problems/power-of-four
+Q8. Fibonacci number using recursion
+Q9. https://leetcode.com/problems/climbing-stairs/ (you will get time limit exceed but dont worry just try to get the correct solution which is almost the exact as Fibonacci number)
+Q10. https://leetcode.com/problems/number-of-steps-to-reduce-a-number-to-zero/
+Q11. https://leetcode.com/problems/powx-n/ (tricky try to understand the solution if you are not able to do this but try it first before moving to the solution)
+Q12. https://leetcode.com/problems/count-collisions-of-monkeys-on-a-polygon/ (first do power of n then try this)
+Q13. https://leetcode.com/problems/generate-binary-strings-without-adjacent-zeros/
+Q14. https://leetcode.com/problems/target-sum/
