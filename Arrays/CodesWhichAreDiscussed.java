@@ -1,4 +1,4 @@
-Q1. Product of array except self (leetcode 238): 
+// Q1. Product of array except self (leetcode 238): 
 
 class Solution {
     public int[] productExceptSelf(int[] nums) {
@@ -35,37 +35,36 @@ class Solution {
     }
 }
 
-to convert the code to your specific language use :--> https://www.codeconvert.ai/free-converter
 
-explanation :---
+// explanation :---
 
-  Initialization:
-prodFromStart: This array will store the cumulative product of elements from the beginning of the array up to each index.
-prodFromEnd: This array will store the cumulative product of elements from the end of the array up to each index.
-Calculate Products from the Start:
+//   Initialization:
+// prodFromStart: This array will store the cumulative product of elements from the beginning of the array up to each index.
+// prodFromEnd: This array will store the cumulative product of elements from the end of the array up to each index.
+// Calculate Products from the Start:
 
-productFromFirst is initialized to 1.
-As we iterate through the nums array from the beginning, we multiply productFromFirst by the current element and store the result in prodFromStart[i].
-Initialize prodFromEnd Array:
+// productFromFirst is initialized to 1.
+// As we iterate through the nums array from the beginning, we multiply productFromFirst by the current element and store the result in prodFromStart[i].
+// Initialize prodFromEnd Array:
 
-prodFromEnd[nums.length - 1] is set to the last element of nums.
-Calculate Products from the End:
+// prodFromEnd[nums.length - 1] is set to the last element of nums.
+// Calculate Products from the End:
 
-productFromLast is initialized to 1.
-As we iterate through the nums array from the end, we multiply productFromLast by the current element and store the result in prodFromEnd[i].
-Calculate the Product of All Elements Except Self:
+// productFromLast is initialized to 1.
+// As we iterate through the nums array from the end, we multiply productFromLast by the current element and store the result in prodFromEnd[i].
+// Calculate the Product of All Elements Except Self:
 
-For each element in nums (except the first and last), ans[i] is calculated as the product of prodFromStart[i-1] and prodFromEnd[i+1], which effectively gives the product of all elements except the current element.
-Handle Special Cases for the First and Last Elements:
+// For each element in nums (except the first and last), ans[i] is calculated as the product of prodFromStart[i-1] and prodFromEnd[i+1], which effectively gives the product of all elements except the current element.
+// Handle Special Cases for the First and Last Elements:
 
-ans[0] is set to prodFromEnd[1] since there are no elements to the left of the first element.
-ans[nums.length - 1] is set to prodFromStart[nums.length - 2] since there are no elements to the right of the last element.
-
+// ans[0] is set to prodFromEnd[1] since there are no elements to the left of the first element.
+// ans[nums.length - 1] is set to prodFromStart[nums.length - 2] since there are no elements to the right of the last element.
 
 
 
 
-Q2 . Best time to buy and sell stocks (leetcode 121)
+
+//Q2 . Best time to buy and sell stocks (leetcode 121)
 
 class Solution {
     public int maxProfit(int[] prices) {
@@ -92,7 +91,7 @@ class Solution {
 
 
 
-Q3. Maximum sum subarray (leetcode 53) :--->
+//Q3. Maximum sum subarray (leetcode 53) :--->
   
 
 class Solution {
