@@ -1,3 +1,2 @@
 https://leetcode.com/problems/check-if-array-is-sorted-and-rotated/
 https://leetcode.com/problems/rotate-array/
-[Visit Google](https://www.google.com)
